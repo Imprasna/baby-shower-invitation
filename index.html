@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&family=Roboto:wght@100;400;500;700&family=Shadows+Into+Light&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-confetti@3/tsparticles.preset.confetti.bundle.min.js"></script>
+    <title>Meenupriya Vijay - Baby Shower</title>
+</head>
+
+<body>
+    <div id="tsparticles"></div>
+    <div class="garland">
+        <img src="/assets/bg.png" alt="" class="garland-img">
+    </div>
+    <div class="god-image">
+        <img src="./assets/god.png" alt="">
+    </div>
+    <div class="top-title">
+        <img src="/assets/flower.png" class="flower" alt="flower">
+        <h4>Sri. Kuppuswamy & Smt. Shanthi</h4>
+        <h4>Sri. Ravi & Smt. Malarkodiy</h4>
+    </div>
+
+    <div class="warm-welcome">
+        <p>Solicit your esteemed presence with family on the occasion of</p>
+    </div>
+
+    <div class="program">
+        <img class="star-1" src="/assets/star.png" alt="star">
+        <p id="element">Seemantham</p>
+        <img class="star-2" src="/assets/star.png" alt="star">
+    </div>
+
+    <p class="presence">of presence to be</p>
+
+    <div class="name-of-the-person">
+        <p>Meenupriya Vijay</p>
+    </div>
+
+    <div class="date">
+        <div class="day-side">
+            <p class="day">Sunday</p>
+        </div>
+        <div class="date-side">
+            <p class="month">April</p>
+            <p class="date">28 <sup>th</sup></p>
+            <p class="year">2024</p>
+        </div>
+        <div class="time-side">
+            <p class="time">10 : 30 AM</p>
+        </div>
+    </div>
+
+    <div class="venue">
+        <img src="/assets/towel.png" alt="towel" class="towel">
+        <img src="/assets/rainbow.png" alt="rainbow" class="rainbow">
+        <h3 class="thumbnail">Venue</h3>
+        <p>Place : <span>NNJ Hall</span></p>
+
+        <address>
+            <a target="_blank" href="https://maps.app.goo.gl/mGwyrAM8fb7xEXDn8">3rd Floor, No. 9812, 9813, Thiruverkadu Road, TNHB Colony Ayyapakkam, Chennai - 600 077</a>
+        </address>
+    </div>
+
+    <div class="best-wishes">
+        <p class="wish">Best wishes from Family & Friends</p>
+    </div>
+
+    <div class="contact">
+        <p class="contact-no">Contact : <a href="tel:+918095000148">+91 80950 00148</a> , <a
+                href="tel:+919841351001">+91 98413 51001</a> </p>
+    </div>
+
+    <div class="tub-img">
+        <img src="/assets/nibble.png" alt="nibble" class="nibble">
+        <img src="/assets/tub.png" alt="cradle" class="cradle">
+    </div>
+
+    <script>
+        tsParticles.load({
+            id: "tsparticles",
+            options: {
+                "fullScreen": {
+                    "zIndex": 1
+                },
+                "emitters": {
+                    "position": {
+                        "x": 50,
+                        "y": 100
+                    },
+                    "rate": {
+                        "quantity": 5,
+                        "delay": 0.15
+                    }
+                },
+                "particles": {
+                    "color": {
+                        "value": [
+                            "#1E00FF",
+                            "#FF0061",
+                            "#E1FF00",
+                            "#00FF9E",
+                            '#FF5E62',
+                            '#F11712',
+                            '#F09819'
+                        ]
+                    },
+                    "move": {
+                        "decay": 0.05,
+                        "direction": "top",
+                        "enable": true,
+                        "gravity": {
+                            "enable": true
+                        },
+                        "outModes": {
+                            "top": "none",
+                            "default": "destroy"
+                        },
+                        "speed": {
+                            "min": 50,
+                            "max": 100
+                        }
+                    },
+                    "number": {
+                        "value": 0
+                    },
+                    "opacity": {
+                        "value": 1
+                    },
+                    "rotate": {
+                        "value": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "direction": "random",
+                        "animation": {
+                            "enable": true,
+                            "speed": 30
+                        }
+                    },
+                    "tilt": {
+                        "direction": "random",
+                        "enable": true,
+                        "value": {
+                            "min": 0,
+                            "max": 360
+                        },
+                        "animation": {
+                            "enable": true,
+                            "speed": 30
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "animation": {
+                            "enable": true,
+                            "startValue": "min",
+                            "count": 1,
+                            "speed": 16,
+                            "sync": true
+                        }
+                    },
+                    "roll": {
+                        "darken": {
+                            "enable": true,
+                            "value": 25
+                        },
+                        "enlighten": {
+                            "enable": true,
+                            "value": 25
+                        },
+                        "enable": true,
+                        "speed": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    },
+                    "wobble": {
+                        "distance": 30,
+                        "enable": true,
+                        "speed": {
+                            "min": -7,
+                            "max": 7
+                        }
+                    },
+                    "shape": {
+                        "type": [
+                            "circle",
+                            "square",
+                            "triangle",
+                            "polygon"
+                        ],
+                        "options": {
+                            "polygon": [
+                                {
+                                    "sides": 5
+                                },
+                                {
+                                    "sides": 6
+                                }
+                            ]
+                        }
+                    }
+                },
+                "responsive": [
+                    {
+                        "maxWidth": 1024,
+                        "options": {
+                            "particles": {
+                                "move": {
+                                    "speed": {
+                                        "min": 33,
+                                        "max": 66
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        });
+
+        var typed = new Typed('#element', {
+            strings: ['<i>Seemantham</i>', 'Seemantham'],
+            typeSpeed: 120,
+            backSpeed: 50,
+            backDelay: 500,
+            startDelay: 1000,
+            loop: false,
+        });
+    </script>
+</body>
+
+</html>

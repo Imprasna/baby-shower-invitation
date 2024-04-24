@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #ffc373, #d1913c);
+  /* background: linear-gradient(to top, #111111 80%, #1d1d1d 100%) no-repeat; */
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  margin: 1.2rem 0 0 0;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.garland {
+    position: relative;
+}
+
+.garland-img {
+    position: absolute;
+    width: 100%;
+    top: -1.5rem;
+    z-index: -2;
+}
+
+.god-image {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.god-image > img {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.top-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.top-title > h4 {
+  font-size: 1.255rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 1rem;
+  position: relative;
+}
+
+.top-title > img.flower {
+  position: absolute;
+  right: 20px;
+  width: 50px;
+  bottom: 64%;
+  opacity: 50%;
+}
+
+.warm-welcome {
+  text-align: center;
+  margin: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  /* color: #333; */
+}
+
+.program {
+  position: relative;
+}
+
+.program > img.star-1 {
+  position: absolute;
+  left: 20px;
+}
+
+.program > img.star-2 {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.program > p {
+  font-family: "WindSong", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.presence {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.name-of-the-person {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.name-of-the-person > p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-style: italic;
+}
+
+.date {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3px;
+  margin: 0 1.2rem;
+}
+
+.day-side,
+.date-side,
+.time-side {
+  position: relative;
+  width: 33.33%;
+  text-align: center;
+}
+
+.day-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-side > .day {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.date-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.date {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+p.month,
+p.year {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.time-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.time {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+p.date > sup {
+  font-size: 1rem;
+}
+
+.venue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.venue > img.towel {
+  position: absolute;
+  left: 20px;
+  top: -20px;
+}
+
+.venue > img.rainbow {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  opacity: 50%;
+}
+
+.venue > h3 {
+  padding: 0.2rem 1.1rem;
+  background: #6a4500;
+  border-radius: 10px;
+  margin: 0.4rem 0;
+}
+
+.venue > p {
+  font-size: 1.5rem;
+  margin: 0.6rem 0;
+  font-style: italic;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.venue > p::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+  transform: translate(20%, 50%);
+  left: 0%;
+  top: 110%;
+}
+
+.venue > p > span {
+  font-weight: 600;
+}
+
+address > a {
+  text-align: center;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+  display: flex;
+}
+
+p.wish {
+  text-align: center;
+  font-size: 1.3rem;
+  background: red;
+  padding: 0.3rem 0;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+p.contact-no {
+  font-size: 1.075rem;
+}
+
+p.contact-no > a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.day-side::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #fff;
+  right: 0;
+  top: 0;
+}
+
+.date-side::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #fff;
+  right: 0;
+  top: 0;
+}
+
+.tub-img {
+  margin: 3rem 0 0 0;
+  position: relative;
+}
+
+.tub-img > img.cradle {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+img.nibble {
+  position: absolute;
+  right: 40px;
+  bottom: 90px;
+  transform: rotate(245deg);
+}
+
+span.typed-cursor {
+  display: none;
+}
