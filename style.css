@@ -11,7 +11,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
   overflow-x: hidden;
-  margin: 1.2rem 0 0 0;
+  margin: 0 auto;
+  max-width: 390px;
   /* font-family: "Poppins", sans-serif; */
 }
 
@@ -307,4 +308,13 @@ img.nibble {
 
 span.typed-cursor {
   display: none;
+}
+
+.address-map {
+  margin: 1rem 0;
+  max-width: 350px;
+}
+
+img.map {
+  width: 100%;
 }
